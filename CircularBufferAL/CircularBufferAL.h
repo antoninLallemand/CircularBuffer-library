@@ -7,8 +7,6 @@
 
 #include <stdint.h>
 
-const int bufferSize = 100;
-
 class CircularBufferAL {
 public :
 
