@@ -3,6 +3,8 @@
 
 void CircularBufferAL :: begin(uint16_t bufferSize){
     CircularBufferSize = bufferSize;    //set buffer size
+    delete[] circularBuffer;
+    uint16_t circularBuffer [CircularBufferSize];
 }
 
 void CircularBufferAL :: writeData(int32_t data) {
