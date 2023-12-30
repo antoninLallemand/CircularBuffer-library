@@ -33,7 +33,7 @@ public :
     bool isEmpty();
 
 private :
-  int32_t circularBuffer[bufferSize];
+  int32_t circularBuffer[0xFFFF];
   uint16_t writeIndex = 0;
   uint16_t readIndex = 0;
   uint16_t CircularBufferSize = 100; //default value
